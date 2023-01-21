@@ -6,6 +6,7 @@ import Content from "./Content";
 import Service from "./Service";
 import Product from "./Product";
 import App from "./App";
+import Usermark from "./Usermark";
 
   const router= createBrowserRouter([
     {
@@ -19,6 +20,10 @@ import App from "./App";
             {
                 path:'about',
                 element: <About />
+            },
+            {
+                path:'usermark',
+                element: <Usermark />
             },
             {
                 path:'service',
