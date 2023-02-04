@@ -7,6 +7,7 @@ import Service from "./Service";
 import Product from "./Product";
 import App from "./App";
 import Usermark from "./Usermark";
+import Singleproduct from "./Singleproduct";
 
   const router= createBrowserRouter([
     {
@@ -32,6 +33,10 @@ import Usermark from "./Usermark";
             {
                 path:'product',
                 element: <Product />
+            },
+            {
+                path:'single/:productId',
+                element: <Singleproduct />
             }
         ]
     }
